@@ -14,6 +14,8 @@
 * **Maintenance & Handover:** Ensures long-term project sustainability by keeping documentation in sync with code updates.
 * **Technical Audits:** Provides a high-level architectural overview for stakeholders and non-technical leads.
 
+## Project Demo Video : [AutoDocX_demo](https://drive.google.com/file/d/1h_kmgFgMS77PIdG7MGRXLCeSmVxsPhii/view?usp=sharing) 
+
 ## My Key Project Contributions (AutoDocX)
 
 ### **1. High-Performance AI Pipeline Architecture**
