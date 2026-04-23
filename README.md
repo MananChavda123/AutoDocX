@@ -1,16 +1,14 @@
-. High-Performance AI Pipeline
-Architecture: Designed and implemented a full-stack LLM pipeline using FastAPI to bridge local inference with the web backend.
+## 🚀 Key Engineering Contributions (AutoDocX)
 
-Optimization: Performed 4-bit quantization (GGUF/AWQ) on a local LLM to achieve high-speed inference without compromising documentation quality.
+### **1. High-Performance AI Pipeline Architecture**
+* **Inference Optimization:** Architected and implemented a complete LLM pipeline, including **4-bit quantization** (GGUF/AWQ) of local models to ensure high-speed documentation generation on consumer-grade hardware.
+* **Backend Integration:** Developed a robust **FastAPI** wrapper to manage asynchronous communication between the inference engine and the web layer.
+* **Prompt Engineering:** Designed specialized system prompts to accurately extract structured metadata and architectural patterns from raw source code.
 
-Logic: Integrated custom prompt engineering to handle complex source code analysis and structure extraction.
+### **2. Full-Stack Developer Experience**
+* **Modern Interface:** Engineered a **React-based** frontend specifically designed for code visualization, allowing developers to interact with generated metadata in real-time.
+* **Seamless Ingestion:** Developed the bridge between user-side file uploads and backend processing, focusing on minimizing latency during the initial file parsing phase.
 
-2. Intuitive Developer Interface
-Frontend: Built a responsive React interface focused on code visualization, displaying structured metadata and human-readable documentation in real-time.
-
-Functionality: Engineered a seamless bridge between user-uploaded source files and the backend processing engine.
-
-3. Optimized Edge Deployment
-Strategy: Architected the system for efficient Edge deployment, ensuring the tool remains lightweight and portable across various local environments.
-
-Performance: Focused on minimizing memory footprint and latency, enabling production-grade LLM performance on consumer-grade hardware.
+### **3. Optimized Edge Deployment & Scalability**
+* **Resource Efficiency:** Focused on **Edge-first deployment** strategies to minimize memory footprint, enabling the tool to run locally without requiring expensive cloud GPU clusters.
+* **Performance Tuning:** Implemented efficient memory management and caching strategies to handle large-scale codebases without degrading system performance.
